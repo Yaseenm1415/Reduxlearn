@@ -1,0 +1,83 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+ height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Card */
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* User Name */
+.container h1 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Balance */
+.balance {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4caf50;
+  margin: 20px 0;
+}
+
+/* Data balance */
+.dataBalance {
+  color: #6c040b;
+}
+
+/* Buttons container */
+.btns {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+/* Buttons */
+button {
+  flex: 1;
+  padding: 12px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Add Button */
+.add {
+  background: #4caf50;
+  color: white;
+}
+
+.add:hover {
+  background: #43a047;
+}
+
+/* Remove Button */
+.remove {
+  background: #f44336;
+  color: white;
+}
+
+.remove:hover {
+  background: #e53935;
+}
